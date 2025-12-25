@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://beetrends.in"),
 
   title: {
-    default: "BeeTrends | Premium Custom Apparel Manufacturer",
-    template: "%s | BeeTrends",
+    default: "Beetrends | Premium Custom Apparel Manufacturer",
+    template: "%s | Beetrends",
   },
 
   description:
-    "BeeTrends is a leading manufacturer of custom T-shirts, branded apparel, and promotional wear engineered for quality, durability, and style.",
+    "Beetrends is a leading manufacturer of custom T-shirts, branded apparel, and promotional wear engineered for quality, durability, and style.",
 
   keywords: [
     "custom t-shirts india",
@@ -26,17 +26,17 @@ export const metadata: Metadata = {
     "promotional wear",
     "corporate uniforms",
     "custom clothing india",
-    "BeeTrends",
+    "Beetrends",
   ],
 
-  authors: [{ name: "BeeTrends" }],
+  authors: [{ name: "Beetrends" }],
 
   openGraph: {
-    title: "BeeTrends | Premium Custom Apparel Manufacturer",
+    title: "Beetrends | Premium Custom Apparel Manufacturer",
     description:
       "Dependable. Stylish. Premium. Custom T-shirts and branded apparel crafted with precision.",
     url: "https://beetrends.in",
-    siteName: "BeeTrends",
+    siteName: "Beetrends",
     type: "website",
     locale: "en_IN",
   },
