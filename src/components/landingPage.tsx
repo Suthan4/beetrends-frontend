@@ -10,7 +10,7 @@ if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
 }
 
-export default function beetrendsLanding() {
+export default function BeetrendsLanding() {
   const rootRef = useRef<HTMLDivElement | null>(null);
   const heroRef = useRef<HTMLElement | null>(null);
   // FIX: reference the actual <img> element rendered by next/image
@@ -68,7 +68,7 @@ export default function beetrendsLanding() {
           <Image
             ref={imageRef}
             src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=2400&auto=format&fit=crop"
-            alt="beetrends Apparel"
+            alt="Beetrends Apparel"
             fill
             priority
             sizes="100vw"
@@ -79,7 +79,7 @@ export default function beetrendsLanding() {
 
         <div className="relative z-10 max-w-6xl px-6 text-center">
           <h1 className="fade-up text-5xl md:text-[12rem] font-light tracking-tight">
-            beetrends
+            Beetrends
           </h1>
           <p className="fade-up mt-6 text-lg md:text-xl text-neutral-300 max-w-3xl mx-auto">
             Custom T-shirts, branded apparel & promotional wear engineered for
@@ -105,7 +105,7 @@ export default function beetrendsLanding() {
             </h2>
             <p className="fade-up mt-6 text-neutral-400 leading-relaxed">
               We are a leading manufacturer of custom T-shirts, branded apparel,
-              and promotional wear. From concept to production, beetrends
+              and promotional wear. From concept to production, Beetrends
               delivers tailor-made solutions with absolute professionalism.
             </p>
             <p className="fade-up mt-4 text-neutral-400">
@@ -167,12 +167,12 @@ export default function beetrendsLanding() {
           Let’s Build Your Brand in Fabric
         </h2>
         <p className="fade-up mt-6 text-neutral-400 max-w-2xl mx-auto">
-          From bulk corporate orders to premium retail lines, beetrends makes
+          From bulk corporate orders to premium retail lines, Beetrends makes
           customization effortless and exceptional.
         </p>
         <div className="relative inline-block group">
           <button className="fade-up mt-10 rounded-full bg-white text-black px-10 py-4 text-sm tracking-wide hover:bg-neutral-200 transition">
-            Contact beetrends
+            Contact Beetrends
           </button>
 
           {/* Tooltip */}
@@ -208,7 +208,7 @@ export default function beetrendsLanding() {
 
       {/* FOOTER */}
       <footer className="border-t border-white/10 py-10 text-center text-sm text-neutral-500">
-        © {new Date().getFullYear()} beetrends. Premium Custom Apparel
+        © {new Date().getFullYear()} Beetrends. Premium Custom Apparel
         Manufacturing.
       </footer>
     </main>
