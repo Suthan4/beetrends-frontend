@@ -170,9 +170,40 @@ export default function BeeTrendsLanding() {
           From bulk corporate orders to premium retail lines, BeeTrends makes
           customization effortless and exceptional.
         </p>
-        <button className="fade-up mt-10 rounded-full bg-white text-black px-10 py-4 text-sm tracking-wide hover:bg-neutral-200 transition">
-          Contact BeeTrends
-        </button>
+        <div className="relative inline-block group">
+          <button className="fade-up mt-10 rounded-full bg-white text-black px-10 py-4 text-sm tracking-wide hover:bg-neutral-200 transition">
+            Contact BeeTrends
+          </button>
+
+          {/* Tooltip */}
+          <div
+            className="
+      pointer-events-none
+      absolute left-1/2 -translate-x-1/2
+      top-4
+      opacity-0 scale-95
+      group-hover:opacity-100 group-hover:scale-100
+      transition-all duration-300 ease-out
+      bg-neutral-900 text-white
+      text-xs tracking-wide
+      px-4 py-2 rounded-full
+      shadow-xl
+      whitespace-nowrap
+    "
+          >
+            📞 +91 98945 05545
+            {/* Pointer */}
+            <span
+              className="
+        absolute left-1/2 -translate-x-1/2
+        -bottom-1
+        w-2 h-2
+        bg-neutral-900
+        rotate-45
+      "
+            />
+          </div>
+        </div>
       </section>
 
       {/* FOOTER */}

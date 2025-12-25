@@ -45,6 +45,12 @@ export const metadata: Metadata = {
     canonical: "https://beetrends.in",
   },
 
+  icons:{
+    icon:[
+        { url: "/favicon.jpg" },
+    ]
+  },
+
   robots: {
     index: true,
     follow: true,
