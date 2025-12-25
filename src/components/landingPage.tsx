@@ -79,7 +79,7 @@ export default function BeeTrendsLanding() {
 
         <div className="relative z-10 max-w-6xl px-6 text-center">
           <h1 className="fade-up text-5xl md:text-[12rem] font-light tracking-tight">
-            Bee Trends
+            BeeTrends
           </h1>
           <p className="fade-up mt-6 text-lg md:text-xl text-neutral-300 max-w-3xl mx-auto">
             Custom T-shirts, branded apparel & promotional wear engineered for
